@@ -2,7 +2,10 @@ import React from 'react';
 
 function App() {
   return (
-    <div><h1>Hello, world!</h1></div>
+    <React.Fragment>
+      <label htmlFor="bar">Bar!!!</label>
+      <input type="text" onChange={() => {console.log("I am clicked")}} />
+    </React.Fragment>
   );
 }
 
