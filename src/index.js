@@ -11,6 +11,7 @@ import * as serviceWorker from './serviceWorker';
 const store = createStore(reducer);
 
 ReactDOM.render(
+  // Provider component: react-reduxで提供されている、propsにstoreを持つcomponent
   <Provider store={store}>
     <App />
   </Provider>,
